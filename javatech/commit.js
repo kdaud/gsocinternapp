@@ -18,9 +18,9 @@ User.prototype.getUserName = function () {
 }
 
 var patientConcept = new User('kdaud', '7');
-//console.log(patientConcept);
-// patientConcept.getInfo();
-// patientConcept.getUserName();
+console.log(patientConcept);
+patientConcept.getInfo();
+patientConcept.getUserName();
 console.log(patientConcept.printCoder());
 //console.log(patientData.printCoder());
 
